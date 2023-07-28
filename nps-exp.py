@@ -3,6 +3,7 @@ import requests
 import time
 import hashlib
 
+nps = input('请输入目标url')
 sjc = int(time.time())
     md5 = hashlib.md5()
     md5.update(str(sjc).encode('utf-8'))
